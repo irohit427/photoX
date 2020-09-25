@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "photoxf569cd70": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

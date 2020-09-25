@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-photox-dev-02013-authRole",
+      "UnauthRoleArn": "arn:aws:iam::228405184704:role/amplify-photox-dev-02013-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::228405184704:role/amplify-photox-dev-02013-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-photox-dev-02013-deployment",
+      "UnauthRoleName": "amplify-photox-dev-02013-unauthRole",
+      "StackName": "amplify-photox-dev-02013",
+      "StackId": "arn:aws:cloudformation:us-east-1:228405184704:stack/amplify-photox-dev-02013/f4646e60-ff5f-11ea-a22a-12843ea8a65b",
+      "AmplifyAppId": "d15o76411ei9c9"
+    },
+    "categories": {
+      "auth": {
+        "photoxf569cd70": {}
+      }
+    }
+  }
+}
