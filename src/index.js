@@ -8,8 +8,8 @@ import App from './App';
 Amplify.configure(aws_exports);
 
 ReactDOM.render(
-  <React.StrictMode>
+  
     <App />
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
