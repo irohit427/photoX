@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom';
 import { Header, List, Segment } from 'semantic-ui-react';
 
 
@@ -21,10 +22,10 @@ export default class AlbumsList extends Component {
 
     albumItems() {
         return this.props.albums.sort(this.makeComparator('name')).map(album =>
-            <li key={album.id}>
-                {album.name}
-            </li>);
-    }
+            <List.Item key={album.id}>
+                <NavLink to={`/albums/${album.id}`}>{album.name}</NavLink>
+            </List.Item>
+            );}
     render() {
         return (
             <Segment>
